@@ -130,6 +130,8 @@ class ExploreViewController: UITableViewController, UITextFieldDelegate {
         
         config.interactiveHide = interactiveHide.isOn
         
+//        config.becomeKeyWindow = false
+        
         // Set status bar style unless using card view (since it doesn't
         // go behind the status bar).
         if case .top = config.presentationStyle, layout.selectedSegmentIndex != 1 {
